@@ -8,8 +8,6 @@ charset-normalizer==3.4.4
 click==8.3.0
 et_xmlfile==2.0.0
 folium==0.20.0
-geographiclib==2.1
-geopy==2.4.1
 gitdb==4.0.12
 GitPython==3.1.45
 idna==3.11
@@ -27,7 +25,6 @@ protobuf==6.33.0
 pyarrow==21.0.0
 pydeck==0.9.1
 python-dateutil==2.9.0.post0
-python-dotenv==1.1.1
 pytz==2025.2
 referencing==0.37.0
 requests==2.32.5

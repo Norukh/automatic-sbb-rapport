@@ -1,4 +1,5 @@
 # app.py
+from functools import lru_cache
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -105,6 +106,7 @@ def haversine(lat1, lon1, lat2, lon2):
     km = 6371.0 * c
     return km
 
+@lru_cache(maxsize=None)
 def get_location_by_plz(query, user_agent):
     url = f"https://nominatim.openstreetmap.org/search?q={query}&format=json&limit=1"
     print(url)
